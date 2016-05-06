@@ -24,7 +24,7 @@ PLAYBOOK: hostnames.yml ********************************************************
 PLAY [docker] ******************************************************************
 
 TASK [hostname : print hostname] ***********************************************
-task path: /Users/use.name/Projects/ansible-docker-connector/roles/hostname/tasks/main.yml:2
+task path: /Users/user.name/Projects/ansible-docker-connector/roles/hostname/tasks/main.yml:2
 ESTABLISH DOCKER CONNECTION FOR USER: None
 <slave_0001> EXEC ['/usr/local/bin/docker', 'exec', '-u', None, '-i', u'slave_0001', '/bin/sh', '-c', u"/bin/sh -c 'LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python'"]
 fatal: [slave_0001]: FAILED! => {"changed": false, "failed": true, "invocation": {"module_name": "command"}, "module_stderr": "", "module_stdout": "", "msg": "MODULE FAILURE", "parsed": false}
