@@ -1,0 +1,6 @@
+---
+- name: print hostname
+  command: hostname
+  register: hostname
+
+- debug:  msg="{{ hostname.stdout }}"

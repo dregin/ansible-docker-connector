@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  slave_001:
+    container_name: slave_0001
+    image: centos:6.7
+    tty: true
+    command: /bin/sh
+    ports:
+    - "8080:8080"

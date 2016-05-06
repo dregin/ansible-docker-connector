@@ -1,0 +1,6 @@
+---
+- hosts: docker
+  connection: docker
+  gather_facts: no
+  roles:  
+    - hostname
