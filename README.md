@@ -1,5 +1,5 @@
 # ansible-docker-connector
-Testin ansible's docker connector with Docker for Mac beta
+Testing ansible's docker connector with Docker for Mac beta
 
 ## Spin up docker container
 ```bash
