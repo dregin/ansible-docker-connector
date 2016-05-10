@@ -14,6 +14,10 @@ ansible-playbook hostnames.yml -i hosts
 
 ### Current output
 ```bash
+➜  ansible-docker-connector git:(master) ✗ ansible --version
+ansible 2.0.2.0
+  config file = /Users/user.name/Projects/ansible-docker-connector/ansible.cfg
+  configured module search path = Default w/o overrides
 ➜  ansible-docker-connector git:(master) ansible-playbook hostnames.yml -i hosts
 
 PLAY [docker] ******************************************************************
